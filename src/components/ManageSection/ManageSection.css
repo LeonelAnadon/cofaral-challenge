@@ -1,0 +1,84 @@
+
+
+.manageContainer {
+  width: 100%;
+  height: 105%;
+  border: 0.1vh solid rgb(39, 39, 39);
+  border-radius: 1vh;
+}
+
+.manageContainer > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2vh 0 0 0;
+}
+
+.manageContainer > div > h1 {
+  font-size: 3vh;
+}
+
+.searchContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+}
+.searchContainer > span {
+  color: white;
+  font-size: 1.3vh;
+  text-align: center;
+}
+.searchContainer > input {
+  border: none;
+  padding: 1vh 2vh;
+  outline: none;
+  font-size: 2vh;
+  border-radius: 1vh;
+  text-align: center;
+}
+.searchContainer > select {
+  border: none;
+  padding: 1vh 2vh;
+  outline: none;
+  font-size: 2vh;
+  border-radius: 1vh;
+}
+.searchContainer > button {
+  align-self: flex-end;
+  border-radius: 1vh;
+  font-size: 1.3vh;
+}
+.searchContainer > button:active {
+  transform: scale(0.95);
+}
+.addChar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0vh 0;
+}
+
+.addChar > h2 {
+  color: white;
+  font-size: 2vh;
+}
+.addChar > form {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+}
+.addChar > form > input {
+  border: none;
+  padding: 1vh 2vh;
+  outline: none;
+  font-size: 2vh;
+  border-radius: 1vh;
+  text-align: center;
+}
+input[type=submit] {
+  margin: 3vh 0 0 0;
+  cursor: pointer;
+}
+input[type=submit]:active {
+  transform: scale(0.95);
+}

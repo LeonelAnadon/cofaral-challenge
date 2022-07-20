@@ -1,0 +1,87 @@
+.cardOuterContainer {
+  height: 40vh;
+  width: 25vh;
+  cursor: pointer;
+}
+
+.cardInnerContainer {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.cardOuterContainer:hover .cardInnerContainer {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.front,
+.back {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  text-align: center;
+  font-size: 4vh;
+  border-radius: 1vh;
+  backface-visibility: hidden;
+}
+
+.back {
+  background: white;
+  color: black;
+  transform: rotateY( 180deg );
+}
+
+.front {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.front > h1 {
+  margin: 9vh 0 0 0;
+  padding: 1vh;
+  font-size: 3.2vh;
+  color: black;
+}
+.back > h1 {
+  margin: 9vh auto 0;
+  padding: 1vh;
+  font-size: 2vh;
+  color: black;
+  max-width: 10vh;
+}
+
+.mainInformation {
+  font-size: 2vh;
+}
+.mainInformation > span {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.additionalInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2vh;
+  
+}
+
+.additionalInfo > span {
+  
+  font-weight: bold;
+  font-size: 1.5vh;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.moreInfo {
+  font-weight: bold;
+  font-size: 1.6vh;
+  color: rgba(0,8,31,1);
+}

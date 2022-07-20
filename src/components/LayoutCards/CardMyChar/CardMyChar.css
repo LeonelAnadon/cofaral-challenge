@@ -1,0 +1,95 @@
+.layoutCard {
+  margin: 0;
+  border-radius: 1vh;
+  background-color: white;
+  height: 35vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.layoutCard:hover {
+  box-shadow: 0vh 0vh 1vh #1c7cf2;
+}
+
+.layoutCard > .infoChar {
+  flex: 4;
+  padding: 1vh;
+}
+
+.layoutCard > .infoChar > h3 {
+  text-align: center;
+  font-size: 2.2vh;
+  margin: 1vh 0vh;
+}
+
+.layoutCard > .infoChar > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.infoChar > div > span:first-of-type {
+  margin: 0;
+  font-weight: bold;
+  font-size: 1.5vh;
+  margin: 0 0.7vh 0 0;
+  padding: 0;
+  color: #606060;
+}
+.infoChar > div > span:last-of-type {
+  margin: 0;
+  padding: 0;
+  font-size: 1.5vh;
+  font-weight: bold;
+}
+.layoutCard .infoChar > .createdform {
+  margin: 1vh 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.layoutCard .infoChar > .createdform > span {
+  text-align: center;
+  max-width: 15vh;
+  font-size: 1.2vh;
+}
+.layoutCard .infoChar > .editedform {
+  margin: 1vh 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.layoutCard .infoChar > .editedform > span {
+  text-align: center;
+  max-width: 15vh;
+  font-size: 1.2vh;
+}
+
+.layoutCard > .manageBtns {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0vh 1.5vh;
+}
+.manageBtns > button {
+  border: none;
+  height: max-content;
+  background-color: transparent;
+  border: 0.1vh solid #d8d8d8;
+  color: black;
+  border-radius: 1vh;
+  font-size: 1.5vh;
+}
+
+.manageBtns > button:first-of-type:active {
+  background-color: #ff5b58;
+  color: white;
+}
+.manageBtns > button:last-of-type:active {
+  background-color: #7bc6ff;
+  color: white;
+}

@@ -1,0 +1,130 @@
+.tintScreen {
+  height: 100vh;
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  position: relative;
+  width: 30vw;
+  height: fit-content;
+  background-color: white;
+  border-radius: 1vh;
+  padding: 1vh;
+}
+.modal > h1 {
+  font-size: 3vh;
+  color: black;
+  text-align: center;
+  margin: 3vh 0 0 0;
+}
+
+.closeBtn {
+  font-size: 2vh;
+  font-weight: bold;
+  color: black;
+  position: absolute;
+  left: 90%;
+  top: 2vh;
+  cursor: pointer;
+}
+.infoModal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 2vh;
+}
+.infoModal > button {
+  border: 0.1vh solid rgb(38, 38, 38);
+  border-radius: 1vh;
+  font-size: 1.5vh;
+  font-weight: bold;
+  margin: 1vh 0;
+  color: black;
+  transition: all 0.25s ease;
+}
+.infoModal > button:hover {
+  background-color: #58d548;
+  border: 0.1vh solid transparent;
+  color: white;
+}
+.infoModal > button:active {
+  transform: scale(0.95);
+}
+
+.filmInfo {
+  margin: 1vh 0;
+}
+.filmInfo > span {
+  font-size: 2.2vh;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.7);
+  margin: 1vh 0;
+}
+.filmInfo > p {
+  margin: 0.5vh 0;
+  padding: 0;
+}
+.homeworldInfo {
+  margin: 1vh 0;
+}
+.homeworldInfo > span {
+  font-size: 2.2vh;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.7);
+  margin: 1vh 0;
+}
+.homeworldInfo > p {
+  margin: 0.5vh 0;
+  padding: 0;
+}
+
+
+.speciesInfo {
+  margin: 1vh 0;
+}
+.speciesInfo > span {
+  font-size: 2.2vh;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.7);
+  margin: 1vh 0;
+}
+.speciesInfo > p {
+  margin: 0.5vh 0;
+  padding: 0;
+}
+
+.starshipsInfo {
+  margin: 1vh 0;
+}
+.starshipsInfo > span {
+  font-size: 2.2vh;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.7);
+  margin: 1vh 0;
+}
+.starshipsInfo > p {
+  margin: 0.5vh 0;
+  padding: 0;
+}
+
+.vehiclesInfo {
+  margin: 1vh 0;
+}
+.vehiclesInfo > span {
+  font-size: 2.2vh;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.7);
+  margin: 1vh 0;
+}
+.vehiclesInfo > p {
+  margin: 0.5vh 0;
+  padding: 0;
+}

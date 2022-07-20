@@ -1,0 +1,47 @@
+
+.myCharContainer {
+  margin: 0;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  gap: 2vh;
+
+}
+.myCharOuterContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5vh;
+}
+
+.myCharContainer > div:first-of-type {
+  flex: 2.4;
+}
+
+.myCharContainer > div:last-of-type {
+  flex: 1;
+}
+
+.myCharOuterContainer > h1 {
+  font-size: 5vh;
+  font-family: "Koulen", cursive;
+  margin: -4vh 0 1vh 0;
+}
+.backToHomeBtn {
+  position: absolute;
+  top: 4vh;
+  left: 8vh;
+  font-size: 2vh;
+  padding: 1vh;
+  background-color: white;
+  border-radius: 1vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.backToHomeBtn:active {
+  transform:  scale(0.95);
+}
